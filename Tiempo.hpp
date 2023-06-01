@@ -15,9 +15,9 @@ class Tiempo {
         int getHora() const;
         int getMinu() const;
         /*1. Agrega las definiciones de los métodos siguientes guiáte por el UML de la clase y los comentarios siguientes:*/
-        // Miembro de la clase. operador ++ incrementa el Tiempo en 1 minuto y regresa el tiempo
+        // Miembro de la clase. operador ++ incrementa (preincremento) el Tiempo en 1 minuto y regresa el tiempo
         
-        //Friend. operador -- decrementa el Tiempo en 1 minuto y regresa el tiempo
+        //Friend. operador -- decrementa (predecremento)el Tiempo en 1 minuto y regresa el tiempo
         // si la hora es 0:0 y se pide decrementar, regresa 0:0
         
         // Miembro de la clase. operador > Compara si el primer Tiempo es mayor que el segundo
