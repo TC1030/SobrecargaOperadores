@@ -28,7 +28,7 @@ classDiagram
     Tiempo: + friend operator+(int, Tiempo&) Tiempo
     Tiempo: + operator++() Tiempo
     Tiempo: + friend operator--() Tiempo
-    Tiempo: + operator+=() void
+    Tiempo: + friend operator+=() void
     Tiempo: + operator>(Tiempo&, Tiempo&) bool
     Tiempo: + friend operator>>(istream&, Tiempo&) istream
     Tiempo: + friend operator<<(ostream&, Tiempo&) ostream 
